@@ -9,44 +9,26 @@
     <artifactId>addons-parent-pom</artifactId>
     <version>4</version>
   </parent>
-  <artifactId>spnego-addon</artifactId>
+  <groupId>org.exoplatform.addons.sso</groupId>
+  <artifactId>spnego-addon-parent</artifactId>
   <version>4.2.x-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <properties>
     <gatein.sso.version>1.4.3.Final</gatein.sso.version>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.gatein.sso</groupId>
-      <artifactId>spnegosso</artifactId>
-      <version>${gatein.sso.version}</version>
-    </dependency>
-  </dependencies>
+  <modules>
+    <module>packaging</module>
+  </modules>
 
-  <build>
-    <finalName>${project.artifactId}-${project.version}</finalName>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>make-packaging</id>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-            <configuration>
-              <finalName>${project.artifactId}-${project.version}</finalName>
-              <appendAssemblyId>false</appendAssemblyId>
-              <descriptors>
-                <descriptor>src/main/assembly/packaging.xml</descriptor>
-              </descriptors>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.gatein.sso</groupId>
+        <artifactId>spnegosso</artifactId>
+        <version>${gatein.sso.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>

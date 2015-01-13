@@ -5,7 +5,7 @@ This is a packaging project that re-package [spnego implementation](https://gith
 ### How to install
 
 ```
-./addon.sh install spnego-extension:1.4.3.Final-SNAPSHOT
+./addon.sh install exo-spnego
 ```
 
 ### How to configure SPNEGO SSO for eXo Platform
