@@ -5,7 +5,7 @@ This is a packaging project that re-package [spnego implementation](https://gith
 ### How to install
 
 ```
-./addon.sh install exo-spnego
+./addon install exo-spnego
 ```
 
 ### How to configure SPNEGO SSO for eXo Platform
@@ -31,7 +31,7 @@ spnego-server {
 };
 ```
 
-2. Configure SSO in `$PLATFORM_HOME/gatein/conf/configuration.properties`:
+2. Configure SSO in `$PLATFORM_HOME/gatein/conf/exo.properties`:
 ```
 gatein.sso.enabled=true
 gatein.sso.filter.spnego.enabled=true
@@ -89,7 +89,7 @@ The `$KDC_SERVER` is either the server that installed Kerberos or the window ser
     <module-option name="password-stacking" value="useFirstPass"/>
 </login-module>
 ```
-3. Configure SSO in file `$PLATFORM_HOME/standalone/configuration/gatein/configuration.properties`:
+3. Configure SSO in file `$PLATFORM_HOME/standalone/configuration/gatein/exo.properties`:
 ```
 # SSO
 gatein.sso.enabled=true
