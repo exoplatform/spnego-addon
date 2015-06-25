@@ -13,9 +13,9 @@
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:git://github.com/exo-addons/spnego-addon.git</connection>
-    <developerConnection>scm:git:git@github.com:exo-addons/spnego-addon.git</developerConnection>
-    <url>https://github.com/exo-addons/spnego-addon</url>
+    <connection>scm:git:git://github.com/exoplatform/spnego-addon.git</connection>
+    <developerConnection>scm:git:git@github.com:exoplatform/spnego-addon.git</developerConnection>
+    <url>https://github.com/exoplatform/spnego-addon</url>
     <tag>HEAD</tag>
   </scm>
 
