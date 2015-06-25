@@ -21,7 +21,7 @@
 
   <properties>
     <gatein.sso.version>1.4.3.Final</gatein.sso.version>
-    <exogtn.version>4.2.x-PLF-SNAPSHOT</exogtn.version>
+    <exogtn.version>4.2.0-PLF</exogtn.version>
   </properties>
 
   <modules>
