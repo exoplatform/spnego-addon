@@ -20,7 +20,7 @@
   </scm>
 
   <properties>
-    <gatein.sso.version>1.4.3.Final</gatein.sso.version>
+    <gatein.sso.version>1.4.5.Final</gatein.sso.version>
     <exogtn.version>4.3.x-PLF-SNAPSHOT</exogtn.version>
   </properties>
 
