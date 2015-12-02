@@ -21,7 +21,7 @@
 
   <properties>
     <org.gatein.sso.version>1.4.5.Final</org.gatein.sso.version>
-    <org.gatein.portal.version>4.3.0-RC1-1-PLF</org.gatein.portal.version>
+    <org.gatein.portal.version>4.3.x-PLF-SNAPSHOT</org.gatein.portal.version>
   </properties>
 
   <modules>
