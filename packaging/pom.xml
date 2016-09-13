@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
+  <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.exoplatform.addons.sso</groupId>
     <artifactId>spnego-addon-parent</artifactId>
+    <groupId>org.exoplatform.addons.sso</groupId>
     <version>1.1.x-SNAPSHOT</version>
   </parent>
   <artifactId>spnego-addon-packaging</artifactId>
   <packaging>pom</packaging>
-
+  <name>eXo Add-on:: SPNEGO</name>
   <properties>
     <gatein.sso.version>1.4.3.Final</gatein.sso.version>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>org.gatein.sso</groupId>
@@ -28,7 +26,6 @@
       <artifactId>exo.portal.component.web.sso.agents-configs</artifactId>
     </dependency>
   </dependencies>
-
   <build>
     <finalName>${project.artifactId}-${project.version}</finalName>
     <plugins>
