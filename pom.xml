@@ -22,7 +22,7 @@
   </scm>
   <properties>
     <org.gatein.sso.version>1.4.5.Final</org.gatein.sso.version>
-    <org.gatein.portal.version>4.4.x-PLF-SNAPSHOT</org.gatein.portal.version>
+    <org.gatein.portal.version>4.4.3-RC04-PLF</org.gatein.portal.version>
   </properties>
   <dependencyManagement>
     <dependencies>
