@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.exoplatform.addons.sso</groupId>
   <artifactId>spnego-addon-parent</artifactId>
-  <version>3.1.x-SNAPSHOT</version>
+  <version>3.1.5-RC01</version>
   <packaging>pom</packaging>
   <name>eXo Add-on:: SPNEGO</name>
   <modules>
@@ -17,7 +17,7 @@
   <scm>
     <connection>scm:git:git://github.com/exoplatform/spnego-addon.git</connection>
     <developerConnection>scm:git:git@github.com:exoplatform/spnego-addon.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>3.1.5-RC01</tag>
     <url>https://github.com/exoplatform/spnego-addon</url>
   </scm>
   <properties>
