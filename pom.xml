@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.exoplatform.addons.sso</groupId>
   <artifactId>spnego-addon-parent</artifactId>
-  <version>3.3.0-20211208</version>
+  <version>3.3.x-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eXo Add-on:: SPNEGO</name>
   <modules>
@@ -17,12 +17,12 @@
   <scm>
     <connection>scm:git:git://github.com/exoplatform/spnego-addon.git</connection>
     <developerConnection>scm:git:git@github.com:exoplatform/spnego-addon.git</developerConnection>
-    <tag>3.3.0-20211208</tag>
+    <tag>HEAD</tag>
     <url>https://github.com/exoplatform/spnego-addon</url>
   </scm>
   <properties>
-    <org.exoplatform.gatein.sso.version>6.3.0-20211208</org.exoplatform.gatein.sso.version>
-    <org.exoplatform.gatein.portal.version>6.3.0-20211208</org.exoplatform.gatein.portal.version>
+    <org.exoplatform.gatein.sso.version>6.3.x-SNAPSHOT</org.exoplatform.gatein.sso.version>
+    <org.exoplatform.gatein.portal.version>6.3.x-SNAPSHOT</org.exoplatform.gatein.portal.version>
   </properties>
   <dependencyManagement>
     <dependencies>
