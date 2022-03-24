@@ -4,7 +4,7 @@
   <parent>
     <artifactId>spnego-addon-parent</artifactId>
     <groupId>org.exoplatform.addons.sso</groupId>
-    <version>3.3.x-SNAPSHOT</version>
+    <version>3.3.0-M29</version>
   </parent>
   <artifactId>spnego-addon-packaging</artifactId>
   <packaging>pom</packaging>
